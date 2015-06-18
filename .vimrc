@@ -125,7 +125,7 @@ set noswapfile
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Source\ Code\ Pro\ for\ Powerline\ for\ Powerline
 set laststatus=2
-
+let g:Powerline_symbols = "fancy"
 
 " Color scheme
 " cd ~/.vim/bundle/
