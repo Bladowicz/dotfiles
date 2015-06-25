@@ -266,3 +266,4 @@ let g:pymode_rope_autoimport = 0
 
 
 nnoremap <silent> <F5> :!clear;python %<CR>
+nnoremap <silent> <Leader>/ :nohlsearch<CR>

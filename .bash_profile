@@ -51,4 +51,6 @@ PROMPT_COMMAND='PS1="\`if [[ \$? = "0" ]]; then echo "\\[\\033[32m\\]"; else ech
 ####
 #export PATH=/usr/local/python27/bin:$PATH
 #export PATH=/home/gbaranowski/Skrypty/MyPath:$PATH
+xmodmap ~/dotfiles/.speedswaper
+
 export PATH=/home/gbaranowski/MyLibs:$PATH

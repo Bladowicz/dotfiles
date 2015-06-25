@@ -1,9 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/gbaranowski/PycharmProjects/ProsEstimation/OUT'
-let g:netrw_dirhist_2='/home/gbaranowski/MyLibs/Connect'
-let g:netrw_dirhist_3='/home/gbaranowski/Django/minion/minion'
-let g:netrw_dirhist_4='/home/gbaranowski/Projekty/20150331_UserAgenty_4Wania'
-let g:netrw_dirhist_5='/home/gbaranowski/Django/minion'
-let g:netrw_dirhist_6='/home/gbaranowski/temp'
-let g:netrw_dirhist_7='/home/gbaranowski/.vim/color'
+let g:netrw_dirhist_cnt =0
