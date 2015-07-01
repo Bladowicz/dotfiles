@@ -122,11 +122,21 @@ set noswapfile
 " git clone https://github.com/Lokaltog/powerline.git
 " cd powerline
 " sudo python setup.py install
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-set guifont=Source\ Code\ Pro\ for\ Powerline\ for\ Powerline
 set laststatus=2
-let g:Powerline_symbols = "fancy"
-
+set guifont=Inconsolata\ for\ Powerline:h15
+set encoding=utf-8
+set t_Co=256
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+      let g:airline_symbols = {}
+endif
+let g:airline_symbols.space = "\ua0"
+  let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline_theme = 'luna'
 " Color scheme
 " cd ~/.vim/bundle/
 " git clone https://github.com/altercation/vim-colors-solarized
