@@ -68,6 +68,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias pls='ls -lh --hide="*.pyc"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -98,7 +99,7 @@ fi
 export PYTHONPATH=$PYTHONPATH:/home/gbaranowski/MyLibs
 
 
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gbaranowski/eclipse
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gbaranowski/Programy
     function _update_ps1() {
        export PS1="$(~/powerline-shell.py $? 2> /dev/null)"
     }
